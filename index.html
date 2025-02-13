@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special 红包 for You ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="glow">Happy Valentine's Day, 我的爱! ❤️</h1>
+        <p>Click the red packet to open your special surprise! 💕</p>
+
+        <!-- Red Packet -->
+        <div class="red-packet" id="redPacket">
+            <div class="flap"></div>
+            <div class="body">
+                <p class="packet-text">红包 🧧</p>
+            </div>
+        </div>
+
+        <!-- Hidden Message -->
+        <div class="message hidden" id="hiddenMessage">
+            <h2 class="glow">我爱你, 宝贝! 💖</h2>
+            <p>I can’t stand how amazing my life is now that I met you. Before meeting you, I thought love was something that happened in books and movies. Now I know what they were talking about! My life has surpassed every dream I have ever had, because you are all of those dreams wrapped up into one amazing package.😘</p>
+        </div>
+    </div>
+
+    <!-- Falling Effects -->
+    <canvas id="heartCanvas"></canvas>
+    <canvas id="coinCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
